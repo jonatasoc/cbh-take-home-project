@@ -1,3 +1,3 @@
-const { deterministicPartitionKey } = require("./dpk");
+import { deterministicPartitionKey } from "./dpk.js";
 
-console.log(deterministicPartitionKey());
+console.log(deterministicPartitionKey("O rato roeu a ropa do rei de roma"));
